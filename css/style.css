@@ -19,6 +19,10 @@
   gap: 40px;
   align-items: center;
 }
+.header {
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 .nav-menu {
   display: flex;
   gap: 40px;
@@ -86,7 +90,7 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("/images/people-office.jpg");
+    url("../images/people-office.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -116,14 +120,12 @@
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  transition: background-color 0.3s ease;
   height: 56px;
   display: block;
   margin: 0 auto;
   min-width: 169px;
   height: 56px;
   border: none;
-  background-color: #4d5ae5;
   border-radius: 4px;
   cursor: pointer;
   color: #ffffff;
@@ -131,6 +133,7 @@
 .btn:hover,
 .btn:focus {
   background-color: #404bbf;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .main-page {
   background-color: #ffffff;
@@ -153,6 +156,11 @@
   border: 1px solid #8e8f99;
   width: 264px;
   height: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+
   gap: 8px;
 }
 .icon {
