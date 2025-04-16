@@ -261,6 +261,12 @@
   align-items: center;
   justify-content: center;
 }
+.socicon:hover {
+  background-color: #404bbf;
+}
+.socicon:focus {
+  background-color: #404bbf;
+}
 .social-media-icon {
   fill: #f4f4fd;
 }
@@ -390,4 +396,3 @@ img {
 .container {
   width: 1158px;
 }
-
