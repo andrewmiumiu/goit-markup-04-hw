@@ -1,245 +1,371 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GoIT Murkup HW 01</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Raleway:wght@700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body class="body">
-    <header class="header">
-      <div class="container header-container">
-        <nav class="header-navigation">
-          <a href="./index.html" class="first-logo">
-            WEB<span class="logo-text">Studio</span>
-          </a>
-          <ul class="nav-menu">
-            <li>
-              <a href="" class="nav-link">About Us</a>
-            </li>
-            <li>
-              <a href="./index.html" class="nav-link">Studio</a>
-            </li>
-            <li>
-              <a href="" class="nav-link">Portfolio</a>
-            </li>
-            <li>
-              <a href="" class="nav-link">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <address class="contact-info">
-          <ul class="contact-list">
-            <li>
-              <a href="mailto:info@devstudio.com" class="contacts"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+110001111111" class="contacts"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
-      </div>
-    </header>
-    <main>
-      <section class="first-section">
-        <div class="container">
-          <h1 class="site-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="btn">Order Service</button>
-        </div>
-      </section>
-      <section class="main-page">
-        <div class="container">
-          <h2 class="visually-hidden">Our Values</h2>
-          <ul class="values-list">
-            <li class="values">
-              <div class="svg">
-                <svg class="icon" width="64" height="64">
-                  <use href="./images/icons.svg#icon-antenna1"></use>
-                </svg>
-              </div>
-              <h3 class="main-text">Strategy</h3>
-              <p class="prgph">
-                Our goal is to identify the business problem to walk away with
-                the perfect and creative solution.
-              </p>
-            </li>
-            <li class="values">
-              <div class="svg">
-                <svg class="icon" width="64" height="64">
-                  <use href="./images/icons.svg#icon-clock1"></use>
-                </svg>
-              </div>
-              <h3 class="main-text">Punctuality</h3>
-              <p class="prgph">
-                Bring the key message to the brand's audience for the best price
-                within the shortest possible time.
-              </p>
-            </li>
-            <li class="values">
-              <div class="svg">
-                <svg class="icon" width="64" height="64">
-                  <use href="./images/icons.svg#icon-diagram1"></use>
-                </svg>
-              </div>
-              <h3 class="main-text">Diligence</h3>
-              <p class="prgph">
-                Research and confirm brands with the strongest digital growth
-                opportunities and minimize risk.
-              </p>
-            </li>
-            <li class="values">
-              <div class="svg">
-                <svg class="icon" width="64" height="64">
-                  <use href="./images/icons.svg#icon-astronaut1"></use>
-                </svg>
-              </div>
-              <h3 class="main-text">Technologies</h3>
-              <p class="prgph">
-                Design practice focused on digital experiences. We bring forth a
-                deep passion for problem-solving.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="section-about">
-        <div class="container">
-          <h2 class="abt-us">Our Team</h2>
-          <ul class="team-list">
-            <li class="item">
-              <img
-                src="./images/mark-guerrero.jpg"
-                alt="Mark Guerrero"
-                width="264"
-              />
-              <div class="team-members">
-                <h3 class="names">Mark Guerrero</h3>
-                <p class="roles">Product Designer</p>
-              </div>
-            </li>
-            <li class="item">
-              <img src="./images/tom-ford.jpg" alt="Tom Ford" width="264" />
-              <div class="team-members">
-                <h3 class="names">Tom Ford</h3>
-                <p class="roles">Frontend Developer</p>
-              </div>
-            </li>
-            <li class="item">
-              <img
-                src="./images/camila-garcia.jpg"
-                alt="Camila Garcia"
-                width="264"
-              />
-              <div class="team-members">
-                <h3 class="names">Camila Garcia</h3>
-                <p class="roles">Marketing</p>
-              </div>
-            </li>
-            <li class="item">
-              <img
-                src="./images/daniel-wilson.jpg"
-                alt="Daniel Wilson"
-                width="264"
-              />
-              <div class="team-members">
-                <h3 class="names">Daniel Wilson</h3>
-                <p class="roles">UI Designer</p>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="section-portfolio">
-        <div class="container">
-          <h2 class="portfolio-title">Our Portfolio</h2>
-          <ul class="portfolio-list">
-            <li class="item-projects">
-              <img src="./images/bank-app.jpg" alt="Banking App" width="360" />
-              <div class="our-projects">
-                <h3 class="projects">Banking App</h3>
-                <p class="projects-descr">App</p>
-              </div>
-            </li>
-            <li class="item-projects">
-              <img
-                class="projects"
-                src="./images/cash-less.jpg"
-                alt="CashlessPayment"
-                width="360"
-              />
-              <div class="our-projects">
-                <h3 class="projects">Cashless Payment</h3>
-                <p class="projects-descr">Marketing</p>
-              </div>
-            </li>
-            <li class="item-projects">
-              <img
-                src="./images/med-app.jpg"
-                alt="Meditation App"
-                width="360"
-              />
-              <div class="our-projects">
-                <h3 class="projects">Meditation App</h3>
-                <p class="projects-descr">App</p>
-              </div>
-            </li>
-            <li class="item-projects">
-              <img src="./images/taxi-ser.jpg" alt="Taxi Service" width="360" />
-              <div class="our-projects">
-                <h3 class="projects">Taxi Service</h3>
-                <p class="projects-descr">Marketing</p>
-              </div>
-            </li>
-            <li class="item-projects">
-              <img
-                src="./images/screen-il.jpg"
-                alt="Screen Illustration"
-                width="360"
-              />
-              <div class="our-projects">
-                <h3 class="projects">Screen Illustrations</h3>
-                <p class="projects-descr">Design</p>
-              </div>
-            </li>
-            <li class="item-projects">
-              <img
-                src="./images/onl-crs.jpg"
-                alt="Online Courses"
-                width="360"
-              />
-              <div class="our-projects">
-                <h3 class="projects">Online Courses</h3>
-                <p class="projects-descr">Marketing</p>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="container footer-container">
-        <a href="./index.html" class="logo">
-          WEB<span class="footer-logo-text">Studio</span>
-        </a>
-        <p class="footer-prgph">
-          Increase the flow of customers and sales for your business with
-          digital marketing &amp; growth solutions.
-        </p>
-      </div>
-    </footer>
-  </body>
-</html>
+.first-logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 76px;
+}
+.logo-text {
+  color: #2e2f42;
+}
+.header-navigation {
+  display: flex;
+  margin-left: 156px;
+  margin-top: 24px;
+  gap: 40px;
+  align-items: center;
+}
+.header {
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.nav-menu {
+  display: flex;
+  gap: 40px;
+}
+.contact-list {
+  display: flex;
+  gap: 40px;
+  margin-top: 24px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px 0 15px;
+  width: 1158px;
+  margin: 0 auto;
+}
+.nav-link {
+  position: relative;
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+  transform: scaleX(0);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-menu .nav-link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  padding: 24px 0 24px;
+}
+.nav-menu .nav-link:hover,
+.nav-menu .nav-link:focus {
+  color: #4d5ae5;
+  text-decoration: underline;
+}
+.contact-info {
+  font-style: normal;
+}
+.body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+.contacts {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: color 0.3s;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact-list .contacts:hover,
+.contact-list .contacts:focus {
+  color: #4d5ae5;
+  text-decoration: none;
+  color: #434455;
+  background-color: #ffffff;
+}
+.first-section {
+  background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  max-width: 1440px;
+  max-height: 600px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/people-office.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.frst-section .site-title {
+  color: #ffffff;
+  font-size: 56px;
+
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+}
+.site-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 496px;
+}
+.btn {
+  font-family: "Roboto", sans-serif;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  height: 56px;
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #ffffff;
+}
+.btn:hover,
+.btn:focus {
+  background-color: #404bbf;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.main-page {
+  background-color: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.svg {
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  width: 264px;
+  height: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+
+  gap: 8px;
+}
+.icon {
+  margin: 0 auto;
+  display: flex;
+  margin-top: 24px;
+}
+.main-text {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+.prgph {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+.values-list {
+  display: flex;
+  gap: 24px;
+  margin-left: 156px;
+}
+.values {
+  gap: 24px;
+  flex-basis: calc((100% - 72px) / 4);
+}
+.section-about {
+  background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.abt-us {
+  font-size: 36px;
+  font-weight: 700;
+  background-color: #f4f4fd;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 72px;
+}
+.team-list {
+  display: flex;
+  margin-left: 156px;
+  gap: 24px;
+}
+.item {
+  background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.team-members {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.names {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.roles {
+  font-size: 16px;
+  font-weight: 400;
+  color: #434455;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  text-align: center;
+}
+.section-portfolio {
+  background-color: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.projects {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+.projects-descr {
+  font-size: 16px;
+  font-weight: 400;
+  color: #434455;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+.item-projects {
+  text-decoration: none;
+  width: calc((100% - 48px) / 3);
+}
+.our-projects {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.footer {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 312px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer-prgph {
+  font-size: 16px;
+  font-weight: 400;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+.footer-logo-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+img {
+  display: block;
+}
+.header {
+  width: 1440px;
+  height: 72px;
+  border-bottom: 1px solid #e7e9fc;
+}
+.container {
+  width: 1158px;
+}
+
