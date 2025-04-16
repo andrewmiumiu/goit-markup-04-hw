@@ -261,6 +261,10 @@
   align-items: center;
   justify-content: center;
 }
+.social-media-icon {
+  fill: #f4f4fd;
+}
+
 .names {
   font-size: 20px;
   font-weight: 500;
@@ -386,5 +390,4 @@ img {
 .container {
   width: 1158px;
 }
-
 
