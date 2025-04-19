@@ -25,10 +25,7 @@
           </a>
           <ul class="nav-menu">
             <li>
-              <a href="" class="nav-link">About Us</a>
-            </li>
-            <li>
-              <a href="./index.html" class="nav-link">Studio</a>
+              <a href="./index.html" class="nav-link current">Studio</a>
             </li>
             <li>
               <a href="" class="nav-link">Portfolio</a>
@@ -340,7 +337,18 @@
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
             <li class="item-projects">
-              <img src="./images/bank-app.jpg" alt="Banking App" width="360" />
+              <div class="portfolio-thumb">
+                <img
+                  src="./images/bank-app.jpg"
+                  alt="Banking App"
+                  width="360"
+                />
+                <p class="portfolio-overlay">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
               <div class="our-projects">
                 <h3 class="projects">Banking App</h3>
                 <p class="projects-descr">App</p>
@@ -348,7 +356,6 @@
             </li>
             <li class="item-projects">
               <img
-                class="projects"
                 src="./images/cash-less.jpg"
                 alt="CashlessPayment"
                 width="360"
@@ -404,13 +411,60 @@
     </main>
     <footer class="footer">
       <div class="container footer-container">
-        <a href="./index.html" class="logo">
-          WEB<span class="footer-logo-text">Studio</span>
-        </a>
-        <p class="footer-prgph">
-          Increase the flow of customers and sales for your business with
-          digital marketing &amp; growth solutions.
-        </p>
+        <div class="footer-logo-wrap">
+          <a href="./index.html" class="logo">
+            WEB<span class="footer-logo-text">Studio</span>
+          </a>
+          <p class="footer-prgph">
+            Increase the flow of customers and sales for your business with
+            digital marketing &amp; growth solutions.
+          </p>
+        </div>
+        <div class="footer-social-wrap">
+          <p class="footer-social-text">Social media</p>
+          <ul class="social-list footer-social-list">
+            <li class="social-item">
+              <a class="socicon footer-social-icon" href="/">
+                <svg class="social-media-icon" width="24" height="24">
+                  <use
+                    class="icon"
+                    href="./images/socialmedia.svg#icon-instagram1"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="socicon footer-social-icon" href="/">
+                <svg class="social-media-icon" width="24" height="24">
+                  <use
+                    class="icon"
+                    href="./images/socialmedia.svg#icon-twitter1"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="socicon footer-social-icon" href="/">
+                <svg class="social-media-icon" width="24" height="24">
+                  <use
+                    class="icon"
+                    href="./images/socialmedia.svg#icon-facebook1"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="socicon footer-social-icon" href="/">
+                <svg class="social-media-icon" width="24" height="24">
+                  <use
+                    class="icon"
+                    href="./images/socialmedia.svg#icon-linkedin1"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
